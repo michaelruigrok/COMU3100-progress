@@ -1,3 +1,32 @@
+@media only screen and (max-width: 1000px) {
+  main {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+  }
+}
+
 .visual-references {
 	background-color: lightgrey;
+}
+
+.visual-references > * {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.description {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.visual-reference {
+  width: 50%;
+  padding: 0 4rem 0 4rem;
+  display: flex;
+  flex: 1;
 }
