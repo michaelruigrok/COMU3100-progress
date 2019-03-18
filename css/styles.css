@@ -173,10 +173,10 @@ Global Styles
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
-p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
+p { color: #677; word-spacing: 1px; line-height: 25px; font-size: 1.3rem; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
-.section-padding { padding: 90px 0 100px }
+.section-padding { padding: 70px 0 100px }
 .dark-bg { background: #f3f5f8; }
 .light-bg { background-color: #fff; }
 .dark-box { background: #f3f5f8; -webkit-box-shadow: 0px 3px 0px 0px #f0f2f4; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; }
@@ -186,7 +186,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
-.inner { padding-top: 170px; }
+.inner { padding-top: 0; }
 .copyrights{text-indent:-9999px;height:0;line-height:0;font-size:0;overflow:hidden;}
 /* ==========================================================================
 Navigation
@@ -213,7 +213,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('https://upload.wikimedia.org/wikipedia/commons/7/75/Brisbane_city_skyline.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 300px 0; height: auto; }
+.hero { background: url('https://upload.wikimedia.org/wikipedia/commons/7/75/Brisbane_city_skyline.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 65px 0 400px 0; height: auto; }
 .hero h1 { font-size: 40px; margin: 10px; }
 .hero h1 span { color: #a1a9b0; display: inline-block; }
 .hero p { font-size: 20px; letter-spacing: 1px; color: #222 }
@@ -224,7 +224,7 @@ Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
 .intro p { margin: 50px 0 0; }
-h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+h1.arrow { font-size: 2rem; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
 ========================================================================== */
