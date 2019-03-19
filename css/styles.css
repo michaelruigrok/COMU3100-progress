@@ -223,7 +223,8 @@ Hero
 Intro
 ========================================================================== */
 .intro { background: #f3f5f8; }
-.intro p { margin: 50px 0 0; }
+.intro p { margin: 38px 0 0; }
+.intro p.compacted { margin: 30px 0 0; align: left;}
 h1.arrow { font-size: 2rem; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
 /* ==========================================================================
 Features
