@@ -313,7 +313,6 @@ ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
 .credit { text-align: right; }
 /* ==========================================================================
-FlexSlider Custom CSS
 ========================================================================== */
 #servicesSlider { margin-top: 70px; }
 ul.slides li { margin-bottom: 20px; }
@@ -331,25 +330,29 @@ Waypoints
 
 .visual-references > * {
   padding: 2rem;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .description {
-  flex: 1;
   padding: 1rem;
   margin: auto;
 }
 
 .visual-reference {
-  width: 40%;
-  height: 100%;
+  width: 100%;
   margin: auto;
   padding: 0 1rem 0 1rem;
-  flex: 1;
 }
 
 a {
 	text-decoration: underline;
+}
+
+@media screen and (max-width: 666px) {
+  .visual-references > * {
+  }
+  .visual-reference {
+    width: 100%;
+  }
 }
