@@ -353,3 +353,7 @@ Waypoints
 a {
 	text-decoration: underline;
 }
+
+.viewfit {
+  max-width: 100%;
+}
