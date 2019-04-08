@@ -357,3 +357,14 @@ a {
 .viewfit {
   max-width: 100%;
 }
+
+@media screen and (max-width: 666px) {
+  .visual-references > * {
+    flex-direction: column;
+  }
+
+  .visual-reference {
+    width: 100%;
+    padding: 0;
+  }
+}
