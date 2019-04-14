@@ -1,5 +1,5 @@
  * { 
-	 display: border-box;
+	 box-sizing: border-box;
 }
 
  body { 
@@ -12,16 +12,16 @@ svg, object, img {
 	max-height: 300vh;
 }
 
-form {
+form.quiz {
 	height: 90vh;
 	display: flex;
 }
 
-form[name="books"] {
+form.quiz[name="books"] {
 	background: url('https://upload.wikimedia.org/wikipedia/commons/7/75/Brisbane_city_skyline.jpg') no-repeat center center;
 }
 
-form[name="commute-time"] {
+form.quiz[name="commute-time"] {
 	background: url('../media/bus-stop-traffic.mp4') no-repeat center center;
 }
 
@@ -34,7 +34,7 @@ form[name="commute-time"] {
 	z-index: -1;
 }
 
-form > fieldset {
+form.quiz > fieldset {
 	width: 60vw;
 	height: 60vh;
 	margin: auto;
