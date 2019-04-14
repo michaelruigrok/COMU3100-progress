@@ -112,10 +112,11 @@ body a {
   font-size: 55px;
   font-weight: 300;
   padding-bottom: 1em;
+  line-height: 1.5;
 }
 .banner-info h2 span{
   font-weight: 700;
-  padding-bottom: 0.4em;
+  padding-bottom: 0.4rem;
   border-bottom: solid 3px #BE4343;
 }
 .banner-info h2 span.right-border{
