@@ -1,0 +1,42 @@
+.visual-references {
+}
+
+.visual-references > * {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.description {
+  flex: 1;
+  padding: 1rem;
+  margin: auto;
+}
+
+.visual-reference {
+  width: 40%;
+  height: 100%;
+  margin: auto;
+  padding: 0 1rem 0 1rem;
+  flex: 1;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.viewfit {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 666px) {
+  .visual-references > * {
+    flex-direction: column;
+  }
+
+  .visual-reference {
+    width: 100%;
+    padding: 0;
+  }
+}
