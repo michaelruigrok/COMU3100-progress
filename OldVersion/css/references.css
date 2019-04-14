@@ -8,6 +8,10 @@
   align-items: stretch;
 }
 
+.visual-references > *:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
 .description {
   flex: 1;
   padding: 1rem;
