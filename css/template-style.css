@@ -955,12 +955,11 @@ float: left;
   line-height: 1.8em;
   font-weight: 400;
 }
-/*-- products-bottom --*/
-.products-bottom{
+/*-- quiz-info --*/
+.quiz-info{
   padding: 4em 0;
-  background: #FAFAFA;
 }
-.products-bottom h3{
+.quiz-info h3{
 	color: #DA491C;
 	font-size: 40px;
 	font-weight: 300;
@@ -977,7 +976,7 @@ float: left;
 .gallery-grids img{
 	width:100%;
 }
-.products-bottom-grids {
+.quiz-info-grids {
   margin-top: 3em;
 }
 /*-- 404 --*/
@@ -1256,7 +1255,7 @@ span.menu {
 	.products-number p {
 		font-size: 34px;
 	}
-	.products-bottom h3 {
+	.quiz-info h3 {
 		font-size: 34px;
 	}
 	.mail-grid-left h3 {
@@ -1494,13 +1493,13 @@ span.menu {
 	.products-top-grids {
 	  margin-top: 2em;
 	}
-	.products-bottom {
+	.quiz-info {
 		padding: 2em 0;
 	}
-	.products-bottom h3 {
+	.quiz-info h3 {
 	  font-size: 26px;
 	}
-	.products-bottom-grids {
+	.quiz-info-grids {
 	  margin-top: 1em;
 	}
 	.e-page h3 {
