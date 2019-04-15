@@ -229,33 +229,47 @@
 					<input id="commute-time_4" type="radio" name="commute-time">
 					<label for="commute-time_4">2+ hours</label>
 				</p>
+                
+                
+                <p>
+					<label for="commute-time_4" id="answer"></label>
+				</p>
+                
 			</fieldset>
 		</form>
+
+		<script>
+			document.getElementById("commute-time_4").addEventListener("click",showFunction,true);
+
+function showFunction(){
+
+	var john=["XXX percentage of people go for theri work within XXX minutes"]
+
+	$('#answer').text(john); 
+}
+
+		</script>
+
 	</section>
-
-	<!-- END QUIZ -->
-
-
-
 
 <!-- END QUIZ -->
 
-	<section class="intro text-center section-padding" id="maps">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 wp1">
-					<h2 class="arrow">Maps</h2>
-					<p>Progress on our maps as been more technical focus, we have had to find ways to represent and manipulate data efficiently.</p>
-					<p>The primary was of doing this is with the SVG format embedded in html</p>
-					<p>The following map is a composite of several datasets, from both Election data and general maps.</p>
-				</div>
+<section class="intro text-center section-padding" id="maps">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 wp1">
+				<h2 class="arrow">Maps</h2>
+				<p>Progress on our maps as been more technical focus, we have had to find ways to represent and manipulate data efficiently.</p>
+				<p>The primary was of doing this is with the SVG format embedded in html</p>
+				<p>The following map is a composite of several datasets, from both Election data and general maps.</p>
 			</div>
 		</div>
-		<div class="container section-padding">
-			<object data="img/Greater-Brisbane-Metro-Composite.svg" type="image/svg+xml"/></object>
-		</div>
-	</section>
-		<!-- END MAP -->
+	</div>
+	<div class="container section-padding">
+		<object data="img/Greater-Brisbane-Metro-Composite.svg" type="image/svg+xml"/></object>
+	</div>
+
+<!-- END MAP -->
 
 	<section class="features text-center section-padding" id="features">
 		<div class="container">
@@ -300,8 +314,8 @@
 							<div class="description">
 								<p><a href="http://letsfreecongress.org/">Let's Free Congress</a> Represents data in an incredibly engaging manner.</p>
 								<p>Each data point is a moving, vibrant, dynamic object within its visual space.</p>
-								<p>It also carefully manages the audience's thought processes. It asks a questions, setting the context, and then answers it with data.</p>
 								<p>We want our background environments to be the actor in our, suggesting that our data underpins its movements. But keeping everything fluid and moving is a great way for us to maintain the audience's attention.</p>
+								<p>It also carefully manages the audience's thought processes. It asks a questions, setting the context, and then answers it with data.</p>
 							</div>
 							<video class="visual-reference" loop autoplay muted>
 								<source src="media/lets-free-congress.mp4" type="video/mp4" />
@@ -322,8 +336,8 @@
                         
                       <div>
 							<div class="description">
-								<p><a href="https://www.abc.net.au/news/2015-10-28/social-class-survey-where-you-fit-in-australia/6869864">The ABC's social class quiz</a> bases itself off the same ANU research that we do.</p>
 								<p>In contrast, we are using quizzes as a flexible component within the flow of our work.</p>
+								<p><a href="https://www.abc.net.au/news/2015-10-28/social-class-survey-where-you-fit-in-australia/6869864">The ABC's social class quiz</a> bases itself off the same ANU research that we do.</p>
 								<p>We are using questions as a solely reflective opportunity. We aren’t capturing the data, or telling them what box they fit into. It is for our viewers to consider their own place.</p>
 								<p>We also want to avoid the static, uninteresting presentation that this piece shows.</p>
 							</div>
