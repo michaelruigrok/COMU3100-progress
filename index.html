@@ -226,24 +226,24 @@
 					<label for="commute-time_4">1-2 hours</label>
 				</p>
 				<p>
-					<input id="commute-time_4" type="radio" name="commute-time">
-					<label for="commute-time_4">2+ hours</label>
+					<input id="commute-time_5" type="radio" name="commute-time">
+					<label for="commute-time_5">2+ hours</label>
 				</p>
                 
                 
-                <p>
-					<label for="commute-time_4" id="answer"></label>
+				<p id="answer" class="wow fadInLeft animated">
 				</p>
                 
 			</fieldset>
 		</form>
 
 		<script>
-			document.getElementById("commute-time_4").addEventListener("click",showFunction,true);
+			document.querySelectorAll("input[name='commute-time']").forEach((e) => e.addEventListener("click",showFunction,true));
+			document.querySelectorAll("label[name='commute-time']").forEach((e) => e.addEventListener("click",showFunction,true));
 
 function showFunction(){
 
-	var john=["XXX percentage of people go for theri work within XXX minutes"]
+	var john="The distance in which people travel is tied closely to house prices. Depending on house prices, you may be travelling further than somebody better off than you.";
 
 	$('#answer').text(john); 
 }
@@ -367,7 +367,7 @@ function showFunction(){
 	<div class="footer">
 		<!-- container -->
 		<div class="container">
-			<div class="col-md-6 footer-left  wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
+			<div class="col-md-6 footer-left wow fadeInLeft animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
 				
 				<form>
 					<input type="text" placeholder="Email" required="">
