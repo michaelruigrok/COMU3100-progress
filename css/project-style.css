@@ -54,3 +54,8 @@ form.quiz > fieldset {
 	height: 60vh;
 	margin: auto;
 }
+
+#maps {
+	background: white;
+	padding-top: 15vh;
+}
