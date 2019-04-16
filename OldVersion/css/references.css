@@ -26,6 +26,10 @@
   flex: 1;
 }
 
+.visual-reference img {
+  width: 100%;
+}
+
 a {
     text-decoration: underline;
 }
